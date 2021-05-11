@@ -1,9 +1,11 @@
+/*Skapar en grid layout*/
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 50px 50px 25px 1fr auto auto auto 40px 40px 40px 40px 50px;
 }
 
+/*Placerar ut de olika semantiska elementen*/
 h2 {
   grid-column: 1 / -1;
 }
