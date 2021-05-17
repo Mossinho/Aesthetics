@@ -20,6 +20,9 @@ nav {
   grid-column: 1 / -1;
 }
 
+
+
+
 /*Placerat ut prickarna*/
 .dots {
   grid-row: 4 / 5;
